@@ -1,5 +1,6 @@
 /**
 * This is a sample test 
+
 * Step 1 : Open snapdeal.com/amazon.com/flipcart.com
 * Step 2 : Search A product - Mobile
 * Step 3 : Select First Product
@@ -74,7 +75,7 @@ public class TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_B
 	}
 	
 	
-	@AfterMethod
+	/*@AfterMethod
 	public void take_screenshot_on_failure(ITestResult result) {
 		test.takescreenshot.takeScreenShotOnException(result);
 	}
@@ -82,6 +83,6 @@ public class TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_B
 	@AfterClass
 	public void close_Test_Session() {
 		test.closeBrowserSession();
-	}
+	}*/
 
 }

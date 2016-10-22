@@ -55,7 +55,8 @@ public class TestSessionInitiator {
 		loginPage = new LoginPageActions(driver);
 		homePage = new HomePageActions(driver);
 		resultPage = new ResultsPageActions(driver);
-		
+		productDetailsPage=new ProductDetailsActions(driver);
+		cartPage=new CartPageActions(driver);
 	}
 
 	/**
@@ -97,10 +98,18 @@ public class TestSessionInitiator {
 	}
 
 	public void launchApplication(String loginUrl) {
-		Reporter.log("\nThe application url is :- " + loginUrl, true);
+		if(getProperty("website").equals("https://www.snapdeal.com")){
+			Reporter.log("\n The application url is :- " + loginUrl, true);
+			Reporter.log("The test browser is :- " + _getSessionConfig().get("browser") + "\n", true);
+			driver.manage().deleteAllCookies();
+			driver.get(loginUrl);
+		}
+		else if(getProperty("website").equals("http://www.flipkart.com/")){
+		Reporter.log("\n If Firefox is choosen than The application url is :- " + getYamlValue("baseUrl2"), true);
 		Reporter.log("The test browser is :- " + _getSessionConfig().get("browser") + "\n", true);
 		driver.manage().deleteAllCookies();
-		driver.get(loginUrl);
+		driver.get(getYamlValue("baseUrl2"));
+		}
 	}
 
 	public void openUrl(String url) {

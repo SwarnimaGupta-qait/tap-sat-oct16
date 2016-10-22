@@ -159,6 +159,7 @@ public class HomePageActions extends GetPage {
 
 	public void clickSearchIcon() {
 		// TODO Auto-generated method stub
+		element("searchButton").click();
 		
 	}
 

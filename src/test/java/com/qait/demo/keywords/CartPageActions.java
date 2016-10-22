@@ -32,7 +32,8 @@ public class CartPageActions extends GetPage {
 
 	public void verifyCart() {
 		// TODO Auto-generated method stub
-		
+		 String str=element("successMessage").getText();
+		  Assert.assertTrue(str.contains("added to your cart"),  "[ASSERT FAILED]: Product not added.");
 	}
 
 }

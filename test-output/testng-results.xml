@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[
+ The application url is :- https://www.snapdeal.com]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- firefox
+]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP1_SEARCHPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP2_VERIFYSEARCHRESULT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP3_SELECTFIRSTPRODUCT *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP4_ADDPRODUCTTOCART *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP5_VERIFYCART *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20178" started-at="2016-10-22T08:54:58Z" finished-at="2016-10-22T08:55:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20178" started-at="2016-10-22T08:54:58Z" finished-at="2016-10-22T08:55:18Z">
+      <class name="com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented">
+        <test-method status="PASS" signature="Start_Test_Session()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="Start_Test_Session" is-config="true" duration-ms="10052" started-at="2016-10-22T14:24:58Z" finished-at="2016-10-22T14:25:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+ The application url is :- https://www.snapdeal.com]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- firefox
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Start_Test_Session -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="handleTestMethodName" is-config="true" duration-ms="2" started-at="2016-10-22T14:25:08Z" finished-at="2016-10-22T14:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep1_SearchProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP1_SEARCHPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep1_SearchProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="TestStep1_SearchProduct" duration-ms="3502" started-at="2016-10-22T14:25:08Z" finished-at="2016-10-22T14:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep1_SearchProduct -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-22T14:25:12Z" finished-at="2016-10-22T14:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep2_VerifySearchResult()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP2_VERIFYSEARCHRESULT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep2_VerifySearchResult()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="TestStep2_VerifySearchResult" duration-ms="1789" started-at="2016-10-22T14:25:12Z" finished-at="2016-10-22T14:25:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep2_VerifySearchResult -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-22T14:25:13Z" finished-at="2016-10-22T14:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep3_SelectFirstProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP3_SELECTFIRSTPRODUCT *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep3_SelectFirstProduct()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="TestStep3_SelectFirstProduct" duration-ms="533" started-at="2016-10-22T14:25:13Z" finished-at="2016-10-22T14:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep3_SelectFirstProduct -->
+        <test-method status="PASS" signature="TestStep4_AddProductToCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="TestStep4_AddProductToCart" duration-ms="2574" started-at="2016-10-22T14:25:14Z" finished-at="2016-10-22T14:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep4_AddProductToCart -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-22T14:25:14Z" finished-at="2016-10-22T14:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep4_AddProductToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP4_ADDPRODUCTTOCART *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep5_VerifyCart()[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="TestStep5_VerifyCart" duration-ms="1697" started-at="2016-10-22T14:25:17Z" finished-at="2016-10-22T14:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStep5_VerifyCart -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented@66a3ffec]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2016-10-22T14:25:17Z" finished-at="2016-10-22T14:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented.TestStep5_VerifyCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP5_VERIFYCART *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+      </class> <!-- com.qait.demo.tests.TestLevel2_GenericEcommerseSiteTest_Stubs_Written_Method_Needs_To_Be_Implemented -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -19,5 +19,7 @@ game_row3_col2		id		32
 game_row3_col3		id		33
 image_path		xpath		//td[@id='${id}']/img
 player_turn		id		turn
+searchButton       css      span.searchTextSpan
+successMessage     css      span.mess-text
 ====================================================================================
 

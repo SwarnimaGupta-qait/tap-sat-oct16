@@ -12,5 +12,6 @@ sent_mails		    xpath	//*[@id='zti__main_Mail__5_textCell']
 list_mails 		    xpath	//ul[@id='zl__CLV-main__rows']
 mail_span		    xpath	//*[@id='zlif__CLV-main__811__su']/span
 textbox_Search     id 		inputValEnter
-
+searchButton       css      span.searchTextSpan
+successMessage     css      span.mess-text
 ====================================================================================

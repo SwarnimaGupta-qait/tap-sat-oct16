@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
 import com.qait.automation.getpageobjects.GetPage;
@@ -43,13 +44,15 @@ public class ResultsPageActions extends GetPage {
 
 	public void clickFirstProduct() {
 		// TODO Auto-generated method stub
-		
+		List<WebElement> li=elements("resultList");
+		li.get(0).click();
 	}
 
 
 	public void verifyResults(String yamlValue) {
 		// TODO Auto-generated method stub
-		
+		String str=element("searchKeyword").getText();
+		Assert.assertTrue(str.contains(yamlValue), "[ASSERT FAILED]: Results are not appropriate.");
 	}
 	
 	
